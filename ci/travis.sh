@@ -16,3 +16,4 @@ chmod +x config-expect.sh
 po lib clean . -f &> /dev/null
 po lib setup
 po photon build
+ls bin/
