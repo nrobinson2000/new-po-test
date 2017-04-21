@@ -9,6 +9,8 @@ curl -sLO https://raw.githubusercontent.com/nrobinson2000/po-util/master/config-
 
 chmod +x config-expect.sh
 
+./config-expect.sh
+
 ./po-util.sh install ~/github basic
 
 po lib clean . -f &> /dev/null
